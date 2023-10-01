@@ -1,0 +1,140 @@
+/* miestilo.css */
+
+header {
+  background: linear-gradient(to right, red, black);
+ color: #fff;
+ text-align: center;
+ padding: 20px;
+}
+
+section {
+ padding: 20px; /* espaciado para la sección de 20 pixeles */
+ background-color: #EAECEE
+ }
+
+footer ul {
+    list-style: none;
+ }
+
+footer {
+ background: linear-gradient(to right, black, red); /* Color de fondo del footer */
+ color: #fff;
+ padding: 20px 0; 
+}
+
+.footer-content {
+ max-width: 1500px; /* Ancho máximo del contenido del footer */
+ margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+ text-align: center;
+ }
+
+nav {
+ background-color: #4caf50;
+ padding: 10px;
+}
+
+nav ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ text-align: center;
+}
+
+nav ul li {
+ display: inline-block;
+ margin-right: 20px;
+ color: #fff;
+}
+
+nav ul li a {
+ color: #fff;
+ text-decoration: none;
+ padding: 8px 16px;
+ border-radius: 5px;
+}
+
+nav ul li a:hover {
+ color: #2ECC71;
+ font-size: 20px;
+ background-color: #2f8247;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 12px 15px rgba(0, 0, 0, 0.3);
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Estilo para los iconos sociales en el footer */
+.footer-content img {
+  width: 30px; /* Ajusta el tamaño del icono */
+  height: 30px;
+  margin: 0 5px; /* Añade espaciado horizontal entre los iconos */
+  border-radius: 5px; /* Hace los iconos cuadrados con bordes redondeados */
+  display: inline-block; /* Muestra los iconos en línea uno al lado del otro */
+}
+
+.carousel-caption{
+    color: #fff;
+    background-color: black;
+}
+
+.navbar{
+  background-color: rgb(171, 168, 168) ;
+}
+
+.nav-link{
+  color:black;
+}
+
+.nav-link:hover{
+  background-color: red;
+}
+
+.btn-color{
+  color: #fff;
+}
+
+.btn-color:hover{
+  background-color: red;
+}
+
+.btn-navbar{
+  border: 2pt solid #fff;
+  border-radius: 10%;
+  background-color: #fff;
+}
+
+.anuncion-construc{
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+.anuncion-construc h2{
+  font-size: 24px;
+  color: #333;
+}
+
+.anuncion-construc p {
+  font-size: 18px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.anuncion-construc img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+
